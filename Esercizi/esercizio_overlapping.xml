@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<choice>
+    <sic> testo con <cor> errore </sic>
+    testo corretto </cor>
+
+    <b>testo in bold e <i>bold-italico</b>
+    testo in italico</i>
+</choice>
