@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+Errore presente:
+xmlfirst.xml:20: parser error : Extra content at the end of the document
+<text />
+^
+
+Correzione errore:
+aggiunta dell'elemento radice <root>
+-->
+
+<root>  
+    <text>
+        il primo xml con validazione
+        <child1>questo è un figlio</child1>
+        <child2>questo è un altro figlio</child2>
+    </text>
+
+    <text />
+</root>
+
+<!--
+Modifiche per l'esercizio:
+aggiunti all'elemento padre <text> 
+gli elementi figli <child1> e <child2>
+(i quali sono tra di loro sibling elements)
+-->
