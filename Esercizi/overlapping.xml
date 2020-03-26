@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!--
+    Studente: Eugenio Gugliotta
+    Matricola: 535855
+    Corso: Codifica di Testi 19-20
+-->
+
 <choice>
     <sic> testo con <cor> errore </sic>
     testo corretto </cor>
