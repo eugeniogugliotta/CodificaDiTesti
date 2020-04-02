@@ -2,6 +2,14 @@
     Studente: Eugenio Gugliotta
     Matricola: 535855
     Corso: Codifica di Testi 19-20
+    
+    Descrizione esercizio:
+        elemento root: TEI
+        elementi figli: 
+            header (obbligatorio una occorrenza)
+            facsimile (opzionale una occorrenza)
+            text (obbligatorio almeno una volta)
+        tutti gli elementi figli hanno un content model testuale
 -->
 
 <!ELEMENT TEI (header,facsimile?,text+)>
