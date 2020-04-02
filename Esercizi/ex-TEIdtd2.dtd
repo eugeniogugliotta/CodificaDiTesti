@@ -1,0 +1,39 @@
+<!--
+    Studente: Eugenio Gugliotta
+    Matricola: 535855
+    Corso: Codifica di Testi 19-20
+
+    Descrizione esercizio:
+        elemento root: TEI
+        elementi figli: 
+            header (obbligatorio una occorrenza)
+            facsimile (opzionale una occorrenza)
+            testo (obbligatorio almeno una volta)
+                testo è un mixed content con possibile elemento <seg>
+        attributi:
+            header: 
+                type: (fixed, CDATA, "intestazione")
+                lang: (opzionale, NMTOKEN)
+            facsimile: 
+                source: (obbligatorio)
+                ref: (opzionale, IDREFS)
+            testo: 
+                id: (obbligatorio, ID)
+                type: (opzionale, contenuto testuale)
+-->
+
+<!ELEMENT TEI (header,facsimile?,text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*>
+<!ELEMENT seg (#PCDATA)>
+
+<!ATTLIST header 
+    type #FIXED CDATA "intestazione"
+    lang #IMPLIED NMTOKEN> 
+<!ATTLIST facsimile
+    source #REQUIRED
+    ref #implied IDREFS>
+<!ATTLIST testo
+    id #REQUIRED ID
+    type #IMPLIED CDATA>

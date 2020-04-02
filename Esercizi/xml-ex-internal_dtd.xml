@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE radice [
+    <!ELEMENT radice (figlio)>
+    <!ELEMENT figlio (#PCDATA)>
+]>
+
+<!--
+    Studente: Eugenio Gugliotta
+    Matricola: 535855
+    Corso: Codifica di Testi 19-20
+
+    Descrizione esercizio:
+        Includere all'interno di un documento XML la
+        dichiarazione del tipo, denire internamente gli elementi e
+        gli attributi e validare
+-->
+
+<radice>
+    <figlio>
+
+    </figlio> 
+</radice>

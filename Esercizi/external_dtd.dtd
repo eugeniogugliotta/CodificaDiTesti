@@ -1,0 +1,8 @@
+<!--
+    Studente: Eugenio Gugliotta
+    Matricola: 535855
+    Corso: Codifica di Testi 19-20
+-->
+
+<!ELEMENT radice (figlio)>
+<!ELEMENT figlio (#PCDATA)>
