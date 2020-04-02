@@ -4,7 +4,7 @@
     Corso: Codifica di Testi 19-20
 -->
 
-<!ELEMENT TEI (header,facsimile,text+)>
+<!ELEMENT TEI (header,facsimile?,text+)>
 <!ELEMENT header (#PCDATA)>
 <!ELEMENT facsimile (#PCDATA)>
 <!ELEMENT text (#PCDATA)>
