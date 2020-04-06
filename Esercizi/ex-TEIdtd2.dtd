@@ -33,7 +33,7 @@
     lang #IMPLIED NMTOKEN> 
 <!ATTLIST facsimile
     source #REQUIRED
-    ref #implied IDREFS>
+    ref #IMPLIED IDREFS>
 <!ATTLIST testo
     id #REQUIRED ID
     type #IMPLIED CDATA>
