@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    Studente: Eugenio Gugliotta
+    Matricola: 535855
+    Corso: Codifica di Testi 19-20
+-->
+
+<text>
+    <titolo>La cosa più bella</titolo>
+
+    <p>
+        <frase n="1">
+            <l>Dicono alcuni che sulla terra nera</l>
+            <l>la cosa più bella sia un esercito di</l>
+            <l>cavalieri; altri dicono di fanti; altri dicono di</l>
+            <l>navi.</frase><frase n="2"> Per me, invece, è ciò che si ama.</frase></l>
+    </p>
+</text>
