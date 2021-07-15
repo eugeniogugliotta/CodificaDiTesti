@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a destinatario sconosciuto, in Parigi, 2 febbraio 1834</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Responsabilità di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#DS">Daria Spampinato</name>
+					<name ref="#EC">Erica Capizzi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione digitale
+					<date when="2021-07">Luglio 2021</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto di codifica digitale a cura di</resp>
+					<name ref="#EG">Eugenio Gugliotta</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#EG">Eugenio Gugliotta</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Fondazione Bellini</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+
+			<notesStmt>
+				<note>Destinatario sconosciuto<ptr target="#LL1_13_I_note-1" /></note>
+			</notesStmt>
+
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="263">
+					<citedRange unit="page" from="323" to="324">323-324</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.13.I</idno>						
+						<altIdentifier><idno type="collocation">in esposizione Casa Natale, sala B, vetrina 4, ripiano 1, III</idno></altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a
+								<gap reason="missing"/><supplied reason="omitted-in-original">destinatario sconosciuto</supplied>, in 
+								<placeName ref="#Paris">Parigi</placeName>,
+								<date when="1834-02-02">2 febbraio 1834</date>
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<watermark>
+										<hi rend="align(left)" facs="#LL1.13_I_hotspot_1fr_01">Filigrana</hi> di forma ottagonale con all'interno la stringa <rs type="org"><hi rend="uppercase">WEYNEN</hi></rs>, visibile in alto a sinistra del folio fronte. La <hi rend="align(left)" facs="#LL1.13_I_hotspot_1rv_01">filigrana</hi> è visibile anche in basso a sinistra del folio retro.
+									</watermark>
+									<p>Minuta di lettera in buone condizioni fisiche, composta da un frammento di folio che presenta del testo in entrambe le facciate.
+									Carta sottile con filigrana. Il frammento non presenta timbri</p>
+									<p>Piccole <hi facs="#LL1.13_I_hotspot_1fr_04">macchie</hi> di colore marrone chiaro presenti sul folio, nella parte centrale del fronte in basso, probabilmente dovute a sbavature di inchiostro durante la stesura. Le stesse <hi facs="#LL1.13_I_hotspot_1rv_05">macchie</hi> sono visibili anche nel retro, nella parte centrale in alto.</p>
+									<p><hi facs="#LL1.13_I_hotspot_1rv_06">Scarabocchio</hi> di forma circolare presente nel folio verso, in alto a sinistra.</p>
+									<p>Piccolo <hi facs="#LL1.13_I_hotspot_1fr_02">foro</hi> nella parte destra, in alto, del folio recto. Il <hi facs="#LL1.13_I_hotspot_1rv_02">foro</hi> è visibile anche in basso nel verso.</p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>				
+									<dimensions unit="mm">
+										<height>47</height>
+										<width>135</width>
+									</dimensions>
+								</extent>
+								<foliation>		
+									Frammento di foglio la cui scrittura nel verso è sottosopra rispetto al recto.
+								</foliation>
+								<condition>
+									<p>Lettera in buone condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="3">
+							<handNote>
+								<p>Scritture a mano libera leggibile. Il frammento presenta due annotazioni di seconda e terza mano</p>
+							</handNote>
+							<handNote xml:id="h2" facs="#LL1.13_I_hotspot_1rv_03 #LL1.13_I_hotspot_1rv_04">
+								<p>Annotazione nel verso, posta verticalmente dal basso all'alto, suddivisa in due righe: scrittura a inchiostro nero, con dicitura <unclear reason="illegible"><supplied cert="low" resp="#EG"><lb n="1" facs="#LL1.13_I_hotspot_1rv_03"/>Troisième <lb n="2" facs="#LL1.13_I_hotspot_1rv_04"/>Cotafine</supplied></unclear></p>
+							</handNote>
+							<handNote xml:id="h3" facs="#LL1.13_I_hotspot_1fr_03">
+								<p>Annotazione nel recto, probabilmente dovuta ad un catalogatore, posta sottosopra (capovolta): scrittura a inchiostro blu che riporta il codice <unclear reason="illegible" rend="upside-down" cert="low"><fw type="catalogNum"><idno type="oldCat">d25</idno></fw></unclear></p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>All'interno del carteggio belliniano (LL), la segnatura LL1.13.I identifica la tredicesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#Paris">Parigi</placeName>
+					<date when="1834-02-02">2 febbraio 1834</date>
+				</correspAction>
+				<correspContext>
+					<p>Nessun contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">	
+					<term resp="#GS">Minuta di lettera</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface n="1" xml:id="LL1.13_I_folio_1fr">			<!-- FRONTE RECTO -->
+			<graphic url='LL1.13.I_0001.jpg' width='1632px' height='604px' />
+			<zone ulx="845" uly="141" lrx="1588" lry="267" rendition="Line" xml:id="LL1.13_I_line_1fr_01" /> 
+			<zone ulx="313" uly="348" lrx="1367" lry="453" rendition="Line" xml:id="LL1.13_I_line_1fr_02" /> 
+
+			<!--filigrana-->
+			<zone ulx="35" uly="67" lrx="258" lry="235" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1fr_01" />
+			<!--foro-->
+			<zone ulx="1180" uly="107" lrx="1245" lry="163" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1fr_02" />
+			<!--annotazione-->
+			<zone ulx="203" uly="261" lrx="613" lry="475" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1fr_03" />
+			<!--macchie-->
+			<zone ulx="797" uly="456" lrx="1104" lry="570" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1fr_04" />
+		</surface>
+
+		<surface n="2" xml:id="LL1.13_I_folio_1rv">			<!-- RETRO VERSO -->
+			<graphic url='LL1.13.I_0002.jpg' width='1632px' height='604px' />
+			<zone ulx="267" uly="110" lrx="1602" lry="220" rendition="Line" xml:id="LL1.13_I_line_1rv_01" /> 
+			<zone ulx="227" uly="222" lrx="1611" lry="294" rendition="Line" xml:id="LL1.13_I_line_1rv_02" /> 
+			<zone ulx="224" uly="299" lrx="1569" lry="374" rendition="Line" xml:id="LL1.13_I_line_1rv_03" />
+			<zone ulx="247" uly="379" lrx="1025" lry="438" rendition="Line" xml:id="LL1.13_I_line_1rv_04" /> 
+			<zone ulx="363" uly="447" lrx="1607" lry="530" rendition="Line" xml:id="LL1.13_I_line_1rv_05" /> 
+
+			<!--filigrana-->
+			<zone ulx="53" uly="374" lrx="265" lry="526" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_01"/>
+			<!--foro-->
+			<zone ulx="1196" uly="435" lrx="1238" lry="493" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_02"/>
+			<!--annotazione-->
+			<zone ulx="36" uly="147" lrx="157" lry="343" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_03"/>
+			<zone ulx="108" uly="146" lrx="211" lry="297" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_04"/>
+			<!--macchie-->
+			<zone ulx="815" uly="23" lrx="1092" lry="126" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_05" />
+			<!--scarabocchio-->
+			<zone ulx="155" uly="155" lrx="459" lry="220" rendition="HotSpot" xml:id="LL1.13_I_hotspot_1rv_06" />
+		</surface>
+	</facsimile>
+
+	<text type="letter" xml:id="LL1.13_I" subtype="manuscript" n="LL1.13_I">
+		<body xml:lang="it">
+			<div type="fronte-recto">
+				<pb n="1" xml:id="LL1.13_I_fol_1fr" facs="#LL1.13_I_folio_1fr"/>
+				<opener n="o_01">
+					<dateline n="ab_01">
+						<hi rend="align(right)">
+							<s type="sentence" n="s_01">
+								<lb xml:id="LL1.13_I_lb_1fr_01" n="1" facs="#LL1.13_I_line_1fr_01"/>
+								<address>
+									<addrLine>
+										<placeName ref="#Paris">Parigi </placeName>
+									</addrLine>
+								</address>
+								<date when="1834-02-02">2<pc type="colon">: </pc><distinct type="archaic"><choice><orig>Febrajo</orig><reg>Febbraio</reg></choice></distinct><choice><abbr>34</abbr><expan><ex>18</ex>34</expan></choice><pc type="colon">: </pc></date>
+							</s>
+						</hi>
+					</dateline>
+
+					<salute n="ab_02">
+						<hi rend="align(center) case(mixed)">
+							<s type="sentence" n="s_02">
+								<lb xml:id="LL1.13_I_lb_1fr_02" n="2" facs="#LL1.13_I_line_1fr_02"/>
+								Mia <choice><abbr>Pregsma</abbr><expan>Preg<ex>iati</ex>s<ex>si</ex>ma</expan></choice> 
+								<choice><abbr>Sig<pc type="colon">:</pc><hi rend="supralinear">ra</hi></abbr><expan>Sig<ex>nora</ex></expan></choice> 
+								<persName>Contessa</persName>
+							</s>
+						</hi>
+					</salute>
+				</opener>
+			</div>
+
+			<div type="retro-verso">
+				<pb n="2" xml:id="LL1.13_I_fol_1rv" facs="#LL1.13_I_folio_1rv"/>
+				<div type="letter-body" n="t_01">
+					<ab type="parag" n="ab_03">
+					<hi rend="align(center) case(mixed)">
+						<s type="sentence" n="s_03">
+							
+							<lb xml:id="LL1.13_I_lb_1rv_01" n="1" facs="#LL1.13_I_line_1rv_01"/>
+							Io d’ora innanzi mi dichiaro a Lei<ptr target="#LL1_13_I_note-1" /> 
+							<w> rico
+								<lb xml:id="LL1.13_I_lb_1rv_02" n="2" facs="#LL1.13_I_line_1rv_02" break="no" rend="double stroke"/>
+								noscente
+							</w>
+							per tutto quello che Ella<ptr target="#LL1_13_I_note-1" /> potrà 
+							<lb xml:id="LL1.13_I_lb_1rv_03" n="3" facs="#LL1.13_I_line_1rv_03"/>
+							<subst instant="true" resp="#EG"><del rend="overstrike" hand="#VB" seq="1">giovarmi</del><add place="supralinear" hand="#VB" seq="2">concorrere</add></subst><pc type="comma">,</pc> perché io colga gloria sul 
+							<lb xml:id="LL1.13_I_lb_1rv_04" n="4" facs="#LL1.13_I_line_1rv_04"/>
+							suolo della mia Patria<pc type="dot">.</pc>
+						</s>
+						<s type="sentece" n="s_04">
+							<lb xml:id="LL1.13_I_lb_1rv_05" n="5" facs="#LL1.13_I_line_1rv_05"/>
+							Gradisca le proteste della m<damage extent="1 character"><hi facs="#LL1.13_I_hotspot_1rv_02">i</hi></damage>a sincera stima
+						</s>
+					</hi>
+					</ab>
+				</div>
+			</div>
+			
+			<div type="paratext">
+				<ab type="paratext" subtype="addition" hand="#h3" xml:id="LL1.13_I_hs_1fr_01" facs="#LL1.13_I_hotspot_1fr_03">
+					<unclear reason="illegible" rend="upside-down" cert="low"><fw type="catalogNum"><idno type="oldCat">d25</idno></fw></unclear>
+				</ab>
+				<ab type="paratext" subtype="addition" hand="#h2" xml:id="LL1.13_I_hs_1rv_02" facs="#LL1.13_I_hotspot_1rv_03 #LL1.13_I_hotspot_1rv_04">
+					<unclear reason="illegible"><supplied cert="low" resp="#EG"><lb n="1" facs="#LL1.13_I_hotspot_1rv_03"/>Troisième <lb n="2" facs="#LL1.13_I_hotspot_1rv_04"/>Cotafine</supplied></unclear>
+				</ab>
+			</div>
+		</body>
+
+		<back>
+			<div type="notes">
+				<note xml:id="LL1_13_I_note-1" type="nota_EG" resp="#EG">
+					<p>
+						<persName ref="#VB" role="composer">Bellini</persName> si rivolgeva ad una Contessa, della quale non si ha alcuna informazione.
+					</p>
+				</note>
+				<div type="bibliography">
+					<listBibl xml:id="LL1_13_I_bibliography">
+						<head>Bibliografia della lettera LL1.13_I </head>
+						<bibl xml:id="LL1_13_I_Amore">
+							<ref target="#Amore1894">
+								 <bibl>
+									<author>Amore</author>
+									<date when="1894">1894</date>
+									<citedRange unit="page" from="325" to="325">325</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+						<bibl xml:id="LL1_13_I_Cambi">
+							<ref target="#Cambi1943">
+								<bibl>
+									<author>Cambi</author>
+									<date when="1943">1943</date>
+									<citedRange unit="page" from="382" to="382">382</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+						<bibl xml:id="LL1_13_I_Neri">
+							<ref target="#Neri2005">
+								<bibl>
+									<author>Neri</author>
+									<date when="2005">2005</date>
+									<citedRange unit="page" from="272" to="273">272-273</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+						<bibl xml:id="LL1_13_I_Seminara">
+							<ref target="#Seminara2017">
+								<bibl>
+									<author>Seminara</author>
+									<date when="2017">2017</date>
+									<citedRange unit="page" from="323" to="324">323-324</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+					</listBibl>
+				</div>
+			</div>
+			<div type="lists">
+				<listPerson>
+					<head>Lista persone</head>
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
+						<persName role="composer"> 
+							<ref target="http://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco</forename> 
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1835-09-23">23 settembre 1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality">Puteaux</settlement>
+								<settlement type="department" key="Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>       		
+					</person>
+				</listPerson>
+				<listPlace>
+					<head>Lista dei luoghi</head>
+					<place xml:id="CT">
+						<placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+						<country key="IT">Italia</country>
+					</place>
+					<place xml:id="Paris">
+                        <placeName ref="http://www.geonames.org/2988507 http://www.treccani.it/enciclopedia/parigi/">Paris</placeName>
+                        <country key="FR">France</country>
+                    </place>
+					<place xml:id="Put">
+						<placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+						<district type="arrondissement">Nanterre</district>
+						<settlement type="city">Paris</settlement>
+						<country key="FR">France</country>
+						<note source="#Seminara2017" resp="#GS" ana="580">
+							<bibl>
+								<citedRange unit="page" from="346" to="346">346</citedRange>
+							</bibl>
+							<p>
+								Puteaux era un sobborgo di 
+								<placeName ref="#Paris">Parigi</placeName>
+								, immerso nel verde e situato sulla 
+								<foreign xml:lang="fr">rive gauche</foreign> 
+								della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
+							</p>                        											
+						</note>
+					</place>
+					<listRelation>
+						<relation name="near" mutual="#Put #NSS"/>
+					</listRelation>
+				</listPlace>
+				<listBibl>
+					<bibl xml:id="Amore1894" type="print">
+                        <author xml:id="AA">
+                        	<forename>Antonino </forename>
+                        	<surname>Amore</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Vita. Studi e ricerche</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Giannotta</publisher>
+                        <date when="1894">1894</date>
+                     </bibl>
+					<bibl xml:id="Cambi1943" type="print">
+                        <author xml:id="LC"> 
+                        	<forename>Luisa </forename>
+                        	<surname>Cambi</surname> 
+                        </author>
+                        <title level="m">Bellini. Epistolario</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date when="1943">1943</date>
+                    </bibl>
+					<bibl xml:id="Neri2005" type="print">
+						<author xml:id="CN">
+							<forename>Carmelo </forename>
+							<surname>Neri</surname>
+						</author>
+						<title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+						<pubPlace>Catania</pubPlace>
+						<publisher>Agorà</publisher>
+						<date when="2005">2005</date>
+					</bibl>
+					<bibl xml:id="Seminara2017" type="print">
+						<editor ref="#GS">
+							<forename>Graziella </forename> 
+							<surname>Seminara</surname>
+						</editor>
+						<title level="m">Vincenzo Bellini. Carteggi</title>
+						<title level="s">Historiae Musicae Cultores</title>
+						<biblScope unit="volume">CXXXI</biblScope>
+						<biblScope unit="page">pp. vi+622</biblScope>
+						<pubPlace>Firenze</pubPlace>
+						<publisher>Leo S. Olschki Editore</publisher>
+						<date when="2017">2017</date>                       
+					</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
